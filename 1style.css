@@ -1,0 +1,138 @@
+body {
+    font-family: 'Helvetica Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    background-color: #F4C9D6; 
+    color: #3E2723; 
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6,
+.site-header h1,
+.subtitle,
+.interests-section h3,
+.passion-projects h4,
+.project-description h3 {
+    font-family: Garamond, Georgia, serif;
+}
+
+.site-header {
+    background-color: #3E2723;
+    color: #F4C9D6;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    border-bottom: 6px ridge #5C3A32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 4px ridge #F4C9D6;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: #F4C9D6;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #E2B0C0;
+    margin-top: 0.5rem;
+}
+
+main,
+.about-section,
+.interests-section,
+.passion-projects {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+}
+
+main > p, 
+main > div,
+.about-section {
+    background: #FFFFFF;
+    color: #3E2723;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 3px ridge #3E2723;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2rem;
+}
+
+.interests-section {
+    background: #FFFFFF;          
+    color: #3E2723;              
+    padding: 2rem;
+    border-radius: 8px;
+    border: 3px ridge #3E2723;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.interests-section h3,
+.interests-section h4 {
+    margin-top: 0;
+    color: #3E2723;
+}
+
+.interests-section p,
+.interests-section li {
+    color: #3E2723;              
+}
+
+.passion-projects h4 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #3E2723;
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background: #FFFFFF;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 3px ridge #3E2723;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    color: #3E2723;                  
+}
+
+.project-image img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+}
+
+.project-description {
+    flex: 1;
+}
+
+.project-description h3 {
+    margin-top: 0;
+    color: #3E2723;
+}
+
+.footer-section {
+    background-color: #3E2723;
+    color: #F4C9D6;
+    text-align: center;
+    padding: 2rem 1.0rem;
+    margin-top: 4rem;
+    border-top: 6px ridge #5C3A32;
+}
